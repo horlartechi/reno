@@ -1,0 +1,228 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+/*/ nav bar section /*/
+
+.top-bar {
+    background: #0d1b3e;
+    color: #cbd5e1;
+    font-size: 12px;
+    padding: 8px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-info sapn {
+    margin-right: 20px;
+}
+
+.top-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.account {
+    color: #cbd5e1;
+    text-decoration: none;
+}
+
+.social.a{
+    color: #cbd5e1;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgb(0,0,0,0,05);
+}
+
+.logo-icon {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo-name {
+    font-weight: bold;
+    font-size: 18;
+    color: #c3c8d6;
+}
+
+.logo-tagline {
+    font-size: 11px;
+    color: #94a3b8;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    gap: 25px;
+    color: #f5a623;
+}
+
+.nav-links a {
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #000000;
+    font-style: normal;
+}
+
+a {
+    transition: 0.10s;
+}
+
+
+a:hover {
+    background-color:  #ff9d00;
+    padding: 10px;
+}
+
+a.active {
+    background-color: #ff9d00;
+    color: #000000;
+    padding: 10px;
+}
+
+.read-more {
+    background: #f5a623;
+    color: white;
+    border: none;
+    padding: 15px 22px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.read-more a {
+    text-decoration: none;
+    color: #000000;
+}
+
+/*/ Body content /*/
+
+
+#parent {
+    background-image: url('backgound.jpeg');
+    border: 1px solid rgb(240, 99, 5);
+    width: 100%;
+    height: 470px;
+    position: relative;
+   /* background-position: center; */
+   background-size: cover   ;
+}
+
+/*/ right /*/
+
+.hero-content {
+    padding-left: 30px;
+    color: black; 
+    position: absolute;
+    top: 230px;
+    z-index: 1;
+    color: rgb(0, 0, 0);
+    text-shadow: #f5a623;
+    left: 100px;
+    
+}
+
+.hero-head {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 35px;
+}
+
+.hero-headspan {
+    color: #ff9d00;
+}
+
+
+
+/*/ left /*/
+
+.hero-image {
+    width: 30%;
+    height: 100px;
+    display: flex;
+    /* position: relative; */
+}
+
+/*/ secondsection /*/
+
+.heading-section {
+      text-align: center;
+      padding: 50px 20px 30px;
+    }
+
+    .heading-section h2 {
+      font-size: 40px;
+      color: #ff7402;
+      margin-bottom: 10px;
+    }
+
+    .heading-section p {
+      font-size: 16px;
+      color: #666;
+    }
+
+    /* --- Cards Row --- */
+
+    .cards-row {
+      display: flex;
+      gap: 20px;
+      padding-left: 120px;
+      padding-right: 120px;
+      justify-content: space-around;
+    }
+
+    /* --- Single Card --- */
+
+    .card {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      overflow: hidden;
+      width: 250px;
+      padding-bottom: 6px;
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .card-text {
+      padding: 16px;
+    }
+
+    .card-text h3 {
+      color: #180f01;
+      font-size: 17px;
+      margin-bottom: 8px;
+    }
+
+    .card-text hr {
+      border: none;
+      border-top: 2px solid #ffb108;
+      width: 40px;
+      margin: 8px 0;
+    }
+
+    .card-text p {
+      font-size: 14px;
+      color: #666;
+      line-height: 1.5;
+    }
